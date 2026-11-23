@@ -1,0 +1,33 @@
+### Listar Pedidos
+GET http://localhost:8000/pedidos
+
+### Crear Pedido OK
+POST http://localhost:8000/pedidos
+Content-Type: application/json
+
+{
+  "detalles": [
+    {"producto_id": 1, "cantidad": 2}
+  ]
+}
+
+### Error 422 - Repetido
+POST http://localhost:8000/pedidos
+Content-Type: application/json
+
+{
+  "detalles": [
+    {"producto_id": 1, "cantidad": 2},
+    {"producto_id": 1, "cantidad": 1}
+  ]
+}
+
+### Error 404 - Producto inexistente
+POST http://localhost:8000/pedidos
+Content-Type: application/json
+
+{
+  "detalles": [
+    {"producto_id": 9999, "cantidad": 1}
+  ]
+}
