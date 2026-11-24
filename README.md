@@ -5,7 +5,7 @@ Aplicacion full-stack **Food Store** desarrollada con **FastAPI** (JWT en cookie
 ## Enlaces del proyecto
 
 - **Repositorio publico en GitHub:** https://github.com/EzeSanabria99/utn-prog4-tpi-food-store
-- **Video de demostracion (10 a 15 minutos):** COMPLETAR_URL_PUBLICA_VIDEO
+- **Video de demostracion (10 a 15 minutos):** https://youtu.be/GwmnkwMZZoc
 
 ## Estructura de entrega
 
